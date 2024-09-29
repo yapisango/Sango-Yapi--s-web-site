@@ -11,7 +11,6 @@
     --sunset: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/sunset.jpg);
 
     
-    /* COLORS */
     --blood: #8a0303;
     --slime: #228B22;
     --gloom: #2B363B;
@@ -23,7 +22,6 @@
     --lilac: #B8AED6;
     --snow: #f4f9e9;
     
-    /* FONTS */
     --scary-font: 'Metal Mania';
     --typewriter-font: 'Inconsolata';
     --funny-font: 'Balsamiq Sans';
@@ -34,23 +32,28 @@
     --sweet-font: 'Lobster';
 }
 
-
 body {
     --main-color: var(--blood);
-    
-     
     font-family: var(--scary-font);
+    background: var(--snow); /* Optional: Set a background color */
 }
-
 
 .grid {
-   column-count: 3;
-   column-gap: 8px;
+    column-count: 3;
+    column-gap: 8px;
 }
 
-
 .img {
-    
     border-image: var(--bubbles) 100;
+    width: 100%; /* Make images responsive */
+}
+
+.box {
+    padding: 20px; /* Add some padding for better layout */
+}
+
+.item {
+    break-inside: avoid; /* Prevent items from breaking */
+    margin-bottom: 20px; /* Space between items */
 }
 

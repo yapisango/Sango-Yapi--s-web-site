@@ -1,19 +1,23 @@
 {
-  "name": "Scrim-s0iri3ct4e",
+  "name": "scrim-s0iri3ct4e",
   "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0b",
   "scripts": {
     "watch": "webpack -w",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve"
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "webpack": "^2.0"
-  },
-  "devDependencies": {
-    "babel-core": "^6.0",
-    "babel-loader": "^7.0",
-    "babel-preset-env": "*",
-    "babel-preset-react": "*"
-  }
+    "react-dom": "16.13.1"
+  },"devDependencies": {
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^5.0.0",
+    "babel-loader": "^8.2.3", 
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/preset-react": "^7.20.0",
+    "style-loader": "^3.0.0",
+    "css-loader": "^6.0.0"
+}
 }
